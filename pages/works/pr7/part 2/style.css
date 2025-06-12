@@ -1,0 +1,110 @@
+.wraper{
+    width: 60%;
+    margin: 0 auto;
+}
+.block{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+h1, h2{
+    font-size: 24px;
+    color: black;
+    font-family: Roboto;
+}
+p{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    font-family: Roboto;
+    word-spacing: 10px;
+}
+.menu a{
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.menu{
+    text-align: right;
+}
+.img{
+    width: 215px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    border: 1.6px solid black;
+}
+.img1{
+    background: url(images/1.png);
+}
+.img2{
+    background: url(images/2.png);
+}
+.img3{
+    background: url(images/3.png);
+}
+main ul{
+    background: black;
+    text-align: center;
+    padding: 5px;
+}
+ul{
+    padding: 0;
+    border: 0;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+}
+main li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+main li a:hover{
+    text-decoration: underline;
+}
+main li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+footer nav{
+    text-align: center;
+    margin: 20px 0;
+}
+footer li a{
+    text-decoration: none;
+    color: rgb(6, 6, 50);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+footer li a:hover{
+    text-decoration: underline;
+}
+.logo{
+    background: url(logo.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
