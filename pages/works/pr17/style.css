@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.wrapper{
+    width: 480px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(52, 123, 199);
+    display: flex;
+    gap: 100px;
+    color: rgb(244, 244, 244);
+    padding: 10px;
+}
+h1{
+    margin-left: 140px;
+}
+header img{
+    width: 43px;
+    height: 30px;
+    margin-top: 2px;
+}
+.contant{
+    background: url(img/8.png) center center;
+}
+.flex{
+    display: flex;
+    color: white;
+    margin-bottom: 25px;
+}
+.flex img{
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+h2{
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.info{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.info p{
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 189, 49);
+    padding: 10px;
+    width: 70%;
+    gap: 10px;
+    margin-top: 10px;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.btn p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.number{
+    display: flex;
+    color: rgba(220, 220, 220, 0.955);
+    justify-content: center;
+    gap: 50px;
+}
+.cifri{
+    font-size: 40px;
+}
+.blok p{
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 243, 240, 0.488);
+}
+.blok{
+    margin-bottom: 20px;
+}
+.post{
+    background-color: white;
+    border: 20px solid rgba(235, 218, 228, 0.742) ;
+    padding-left: 20px;
+}
+.nach{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.nach img{
+    width: 70px;
+    height: 70px;
+}
+h3{
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.845);
+}
+.nach p{
+    font-size: 12px;
+    color: gray;
+}
+.nastr img{
+    width: 20px;
+    height: 20px;
+    margin-left: 130px;
+}
+.post p{
+    color: gray;
+    line-height: 25px;
+}
+.likes{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+.likes p{
+    color: rgba(142, 142, 142, 0.708);
+}
+.ok{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ok p{
+    border: 1px solid rgba(142, 142, 142, 0.708);
+    color: white;
+    width: 80%;
+}
+.ok .btn{
+    width: 10%;
+    color: white;
+}
+
