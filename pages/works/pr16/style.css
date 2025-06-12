@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans;
+}
+nav{
+    display: flex;
+    height: 123px;
+    align-items: center;
+}
+nav img{
+    width: 35px;
+    height: 20px;
+}
+.logo p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 112px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 360px;
+}
+nav a{
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.content{
+    background-image: url(img/pexels-photo-356056.png);
+    background-size: cover;
+    height: 780px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding-top: 182px;
+    font-weight: 600;
+}
+.content p{
+    color: aliceblue;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 26px;
+}
+.baten{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 107px;
+    align-items: center;
+}
+.btn p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    padding-top: 20px;
+}
+.btn{
+    width: 220px;
+    height: 70px;
+}
+.btn1{
+    border: 3px solid white;
+}
+.btn2{
+    background-color: #00897b;
+    border: 3px solid #00897b;
+}
+.content img{
+    width: 35px;
+    height: 17px;
+    margin-left: 712px;
+    margin-top: 100px;
+}
+.About{
+    height: 430px;
+    background-color: white;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 125px;
+    font-weight: bold;
+}
+.About p{
+    font-size: 15px;
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1pt;
+}
+.blok{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.block p{
+    width: 254px;
+}
+.About .block img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.Services{
+    background-color: rgb(207, 251, 251);
+    padding-bottom: 100px;
+}
+.Services h2{
+    padding-top: 170px;
+}
+.Services p{
+    font-size: 15px;
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 1pt;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 80px;
+    height: 900px;
+    }
+.flex .block{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+}
+.flex .block img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.flex .block p{
+    width: 230px;
+}
+.flex .block .btn p{
+    font-weight: 500;
+    font-size: 18px;
+    border: 3px solid black;
+    max-width: 128px;
+    margin-top: 40px;
+    padding: 10px 3px 10px 3px;
+}
+.flex .block .btn{
+    margin: 0 auto;
+}
+.flex .block:hover{
+    background-color:#00897b;
+    color:white;
+}
+.flex .block:hover .btn p{
+    border: 3px solid rgb(255, 255, 255);
+}
+.Contact{
+    background-color: #222222;
+    height: 1100px;
+}
+.Contact h2{
+    color: white;
+    margin-top: 15px;
+    padding-top: 130px;
+}
+.Contact p{
+    color: white;
+    width: 665px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info .block{
+    margin-top: 54px;
+    text-align: center;
+    padding: 40px;
+}   
+.info .block p{
+    max-width: 256px;
+    font-weight: 600;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.form p{
+    color: #575555;
+    background-color: white;
+    font-weight: 500;
+}
+.form .name p,.email p{
+    padding: 20px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+.massage p{
+    padding: 120px;
+    text-align: left;
+    border-radius: 10px;
+}
+.send p{
+    background-color: white;
+    color: #222222;
+    width: 100px;
+    padding: 20px 40px 20px 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 965px;
+    margin-top: 40px;
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+    
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'AlumniSans';
+    src: url(fonts/static/AlumniSans-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: AlumniSans;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    min-width: 1313px;
+    min-height: 58px;
+    margin-top: 50px;
+    color: black;
+    margin-bottom: 56px;
+}
+a{
+    color:black
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: 405px 405px 405px;
+    grid-template-rows: 301px 301px;
+}
+.img{
+    width: 405px;
+    height: 301px;
+}
+.img1{
+    background:url(img/image\ 1.png) center center;
+    background-size: cover;
+    height: 612px;
+    grid-row: span 2;
+}
+.img2{
+    background:url(img/image\ 2.png);
+    background-size: cover;
+}
+.img3{
+    background:url(img/image\ 3.png);
+    background-size: cover;
+}
+.img4{
+    background:url(img/image\ 4.png);
+    background-size: cover;
+}
+.img5{
+    background:url(img/image\ 5.png);
+    background-size: cover;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 1235px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
