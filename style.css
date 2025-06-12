@@ -1,0 +1,104 @@
+.prew{
+    width: 500px;
+    height: 300px;
+}
+.prew1{
+    background: url("../img/bts.jpg");
+    background-size: cover;
+}
+.prew2{
+    background: url("../img/stray.jpg");
+    background-size: cover;
+}
+.prew3{
+    background: url("../img/enhypen.jpg");
+    background-size: cover;
+}
+.dance1{
+    background: url("../img/dance.png");
+    background-color: antiquewhite;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.sport1{
+    background: url("../img/sport.png");
+    background-color: antiquewhite;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.tall1{
+    background: url("../img/talk.png");
+    background-color: antiquewhite;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.kyrs11{
+    background: url("../img/sertificat.jpg");
+    width: 250px;
+    height: 170px;
+    background-size: cover;
+}
+.kyrs21{
+    background: url("../img/sertificat2.png");
+    width: 250px;
+    height: 170px;
+    background-size: cover;
+}
+.mi{
+    background: url("../img/my_photo.jpg");
+    width: 250px;
+    height: 170px;
+    background-size: cover;
+}
+body{
+    background-color:rgb(18, 2, 29);
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul{
+    background-color: rgb(228, 181, 197);
+}
+nav li{
+    padding: 10px;
+}
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+}
+nav a{
+    color:rgb(18, 2, 29);
+    text-decoration: none;
+}
+.sidebar{
+    width: 300px;
+    max-width: 300px;
+    height: auto;
+    background-size: cover;
+}
+.naviks{
+    display: flex;
+    gap: 100px;
+}
+.curses{
+    display: flex;
+    gap: 100px;
+}
+.menu_news{
+    display: flex;
+    align-items: center;
+}
+
